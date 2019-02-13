@@ -48,7 +48,7 @@ public extension HeroExtension where Base: UIViewController {
   }
 
   /// used for .overFullScreen presentation
-  internal var storedSnapshot: UIView? {
+  public var storedSnapshot: UIView? {
     get { return config.storedSnapshot }
     set { config.storedSnapshot = newValue }
   }
